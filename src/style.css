@@ -1,0 +1,160 @@
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(243, 157, 104, 0.5), rgba(236, 142, 19, 0.7)), /* Color overlay with 30% opacity */
+                url('./images/croissant3.jfif');
+    background-size: cover;
+    
+}
+
+nav{
+    
+    padding: 2%;
+    background-color:orange;
+   text-align: center;
+   
+    
+}
+
+a{
+    color: blue;
+    padding:3%;
+
+
+}
+
+h1{
+
+    color:white;
+}
+
+h2{
+
+    color: yellow;
+}
+.main-container{
+
+    background: #fef794 cover;
+    
+    margin: 2%;
+    padding:1%;
+    border-radius: 2%;
+}
+
+.intro{
+
+    font-weight: bolder;
+    
+}
+
+.origin-container{
+    display:flex;
+    background-color: #fef794;
+    margin: 20px;
+
+       
+   
+}
+.origin-1{
+    flex: 1;
+    padding: 2%;
+    text-align: justify;
+
+    background-color: #fef794;
+   
+   
+}
+
+.origin-2{
+flex:1;
+width: auto;
+height:auto;   
+
+}
+
+.photo-gallery{ 
+    background-color: #fef794;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:space-around;
+    padding: 10px;
+    
+   
+    
+
+
+}
+.photo-gallery img{
+   
+    object-fit: cover;
+    border-radius:  10px;
+    height: 70%;
+
+}   
+
+.form-croissant{
+    background-color: #fef794;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 65%;
+    margin:  auto;
+    
+}
+
+.labels{
+ 	display:inline-block;
+ 	text-align:right;
+ 	width:45%;
+ 	padding:5px;
+ 	vertical-align:top;
+ 	font-size:30px;
+ 	
+ }
+ input, textarea{
+ 	width:100%;
+ 	padding:10px;
+ 	border-radius:5px;
+ 	border:1px solid #ccc;
+ 	font-size:16px;
+ }
+
+ .rightTab{
+ 	display:inline-block;
+ 	text-align:left;
+ 	width:48%;
+ 	vertical-align:middle;
+ 	font-size:40px;
+ 	
+ }
+
+ .labelMessage{
+
+    display:inline-block;
+ 	text-align:left;
+ 	width:48%;
+    padding-top: 1%;
+    vertical-align:middle;
+ 	font-size:40px;
+
+
+    
+    
+ }
+
+ button{
+background-color: blue;
+color: white;
+border-radius: 5%;
+padding: 10px 20px;
+font-size: large;
+
+    
+ }
+ .submitButton{
+    text-align: center;
+    margin-top: 20px;
+ }
